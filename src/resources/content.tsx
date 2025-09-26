@@ -24,7 +24,7 @@ const social: Social = [
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/itcreativetbb/",
+    link: "https://www.instagram.com/itniggatbb/",
   },
   {
     name: "Facebook",
@@ -34,7 +34,7 @@ const social: Social = [
   {
     name: "WhatsApp",
     icon: "whatsapp",
-    link: "https://wa.me/233545210489",
+    link: "https://wa.me/+233204941734",
   },
   {
     name: "Email",
@@ -54,7 +54,7 @@ const home: Home = {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">itcreativetbb</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
@@ -83,7 +83,7 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
