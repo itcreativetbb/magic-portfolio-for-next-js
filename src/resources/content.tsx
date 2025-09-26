@@ -2,14 +2,14 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  firstName: "Elorm",
+  lastName: "Oscar",
+  name: `Elorm Oscar`,
+  role: "Web Developer & Designer",
+  avatar: "/images/itcreativetbblogo.jpg",
+  email: "it.creative0@gmail.com",
+  location: "Africa/Accra", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -22,19 +22,19 @@ const social: Social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system",
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.instagram.com/itcreativetbb/",
   },
   {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    name: "Facebook",
+    icon: "facebook",
+    link: "https://www.facebook.com/profile.php?id=100089026633132",
   },
   {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    name: "WhatsApp",
+    icon: "whatsapp",
+    link: "https://wa.me/233545210489",
   },
   {
     name: "Email",
@@ -45,11 +45,11 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/ithome.jpg",
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Crafting Digital Experiences, from Code to Creation.</>,
   featured: {
     display: true,
     title: (
@@ -65,14 +65,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
-      <Logo
-        dark
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Elorm Oscar, a Web Developer & Designer. At <strong>itCreative</strong>, we build beautiful, functional, and user-friendly websites and applications.
     </>
   ),
 };
@@ -98,9 +91,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Elorm Oscar is a multi-talented creative professional, offering a diverse range of services to bring your digital vision to life. As a skilled web and app developer, he builds robust and scalable applications. His expertise as a graphic designer and video editor ensures a polished and engaging final product. Elorm also provides expert IT consultation services and offers a variety of digital products to enhance your online presence.
       </>
     ),
   },
@@ -109,41 +100,40 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "itCreative",
+        timeframe: "2020 - Present",
+        role: "Founder & Lead Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Led the development of over 30 websites and applications for clients across various industries, resulting in an average of 40% increase in user engagement.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Built and managed a team of designers and developers to deliver high-quality digital products on time and within budget.
+          </>,
+          <>
+            Developed and launched a successful line of digital products, generating a new revenue stream for the company.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            alt: "itCreative Project",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Freelance",
+        timeframe: "2018 - 2020",
+        role: "Web Developer & Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Designed and developed custom websites for small businesses, helping them establish a strong online presence.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Provided IT consultation services to clients, improving their digital infrastructure and security.
           </>,
         ],
         images: [],
