@@ -12,6 +12,8 @@ import {
   HiOutlineDocument,
   HiOutlineGlobeAsiaAustralia,
   HiOutlineRocketLaunch,
+  HiOutlineWrenchScrewdriver,
+  HiOutlineShieldCheck,
 } from "react-icons/hi2";
 
 import {
@@ -64,6 +66,8 @@ export const iconLibrary: Record<string, IconType> = {
   reddit: FaReddit,
   telegram: FaTelegram,
   instagram: FaInstagram,
+  itSupport: HiOutlineWrenchScrewdriver,
+  cybersecurity: HiOutlineShieldCheck,
 };
 
 export type IconLibrary = typeof iconLibrary;

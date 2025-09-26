@@ -100,8 +100,8 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "itCreative",
-        timeframe: "2020 - Present",
+        company: "itcreativetbb",
+        timeframe: "2018 - Present",
         role: "Founder & Lead Developer",
         achievements: [
           <>
@@ -126,7 +126,7 @@ const about: About = {
       },
       {
         company: "Freelance",
-        timeframe: "2018 - 2020",
+        timeframe: "2018 - 2025",
         role: "Web Developer & Designer",
         achievements: [
           <>
@@ -145,7 +145,7 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "University of Ghana",
         description: <>Studied software engineering.</>,
       },
       {
@@ -213,7 +213,37 @@ const about: About = {
             height: 9,
           },
         ],
-      },  
+      },
+      {
+        title: "IT Expertise & Support",
+        description: (
+          <>
+            As an IT expert, I excel at diagnosing and resolving complex technical issues, ensuring smooth and reliable operations for my clients.
+          </>
+        ),
+        tags: [
+          {
+            name: "IT Support",
+            icon: "itSupport",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Cybersecurity",
+        description: (
+          <>
+            With a strong background in cybersecurity, I am dedicated to protecting digital assets and ensuring the integrity and confidentiality of sensitive information.
+          </>
+        ),
+        tags: [
+          {
+            name: "Cybersecurity",
+            icon: "cybersecurity",
+          },
+        ],
+        images: [],
+      },
     ],
   },
 };
