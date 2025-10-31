@@ -19,8 +19,8 @@ export const Mailchimp: React.FC<React.ComponentProps<typeof Column>> = ({ ...fl
   const [touched, setTouched] = useState<boolean>(false);
 
   const validateEmail = (email: string): boolean => {
-    if (email === "") {
-      return true;
+    if (email.trim() === "") {
+      return false;
     }
 
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
